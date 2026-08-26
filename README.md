@@ -20,3 +20,15 @@ options:
 -h --help display this help message and exit 
 -c --color change the output color (options: green blue, cyan, magenta, yellow) 
 --no-art run it in stealth mode (prints specs, without the ascii art)
+
+## Example
+
+```bash
+$ python sysflex.py -c cyan
+
+        \   /         OS: Windows 11
+         .-.          CPU: AMD Ryzen 9 5900X
+      ― (   ) ―       RAM: 16.4 GB / 32.0 GB
+         '-'          Disk: 240 GB / 1000 GB
+        /   \         Uptime: 4 days, 2 hours
+```
