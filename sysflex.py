@@ -8,11 +8,11 @@ import argparse
 import time
 import os
 
-# ascii art logo (keep it simple)
+# ascii art logo (keep it simple, standard ascii only for windows)
 LOGO = [
     "   \\   /   ",
     "    .-.    ",
-    " ― (   ) ― ",
+    " - (   ) - ",
     "    '-'    ",
     "   /   \\   "
 ]
