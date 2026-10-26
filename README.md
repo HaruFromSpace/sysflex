@@ -2,7 +2,7 @@
 
 a fast minimal system information fetcher built using python.
 
-run it in your terminal. It instantly gets your system specs (OS, CPU, RAM, Uptime) and displays them next to a clean piece of ASCII art. No big dependencies, a simple nice-looking terminal tool.
+run it in your terminal. It instantly gets your system specs (OS, CPU, RAM, disk and uptime) and displays them next to a clean piece of ASCII art. No big dependencies, a simple nice-looking terminal tool.
 
 ## Usage
 
@@ -16,10 +16,11 @@ python sysflex.py
 
 arguments: none needed.
 
-options: 
--h --help display this help message and exit 
--c --color change the output color (options: green blue, cyan, magenta, yellow) 
---no-art run it in stealth mode (prints specs, without the ascii art)
+| Option | What it does |
+| --- | --- |
+| `-c`, `--color` | output colour: green, blue, cyan, magenta or yellow |
+| `--no-art` | print only the specs, without the ASCII art |
+| `-h`, `--help` | show help |
 
 ## Example
 
